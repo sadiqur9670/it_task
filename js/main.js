@@ -32,7 +32,7 @@
       document.querySelector("#exampleInputName1").value = this.cells[0].innerHTML;
       document.querySelector("#exampleInputEmail1").value = this.cells[1].innerHTML;
       document.querySelector("#exampleInputPhone1").value = this.cells[2].innerHTML;
-      document.querySelector("#exampleInputRole1").value = this.cells[3].innerHTML;
+      document.querySelector("#exampleInputRole1").value = this.cells[6].innerHTML;
     }
   }
 
@@ -42,7 +42,7 @@
       table.rows[rIndex].cells[0].innerHTML = document.querySelector("#exampleInputName1").value;
       table.rows[rIndex].cells[1].innerHTML = document.querySelector("#exampleInputEmail1").value;
       table.rows[rIndex].cells[2].innerHTML = document.querySelector("#exampleInputPhone1").value;
-      table.rows[rIndex].cells[3].innerHTML = document.querySelector("#exampleInputRole1").value;
+      table.rows[rIndex].cells[6].innerHTML = document.querySelector("#exampleInputRole1").value;
 
 }
   
